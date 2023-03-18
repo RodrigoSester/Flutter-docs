@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:templates/components/column_page.dart';
+import 'package:templates/components/elevated_button.dart';
 import 'package:templates/components/tab_bar.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const ColumnPage(),
+      home: const ElevatedButtonPage(),
     );
   }
 }
